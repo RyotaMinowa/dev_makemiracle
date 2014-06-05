@@ -31,7 +31,7 @@
     			<div class="logo-area col-xs-12 col-md-6 col-md-offset-3">
     				<div class="row text">
 	    				<a href="http://makemiracle.us/" class="text-center">
-		    				<img src="http://makemiracle.us/wp-content/themes/revtheme/img/logos.png">
+		    				<img src="http://localhost:8888/dev_makemiracle/wordpress/wp-content/themes/revtheme1.0.0/img/logos.png">
 		    				<span>90年代頃をみんなで懐かしむ動画メディア</span>
 	    				</a>
     				</div>

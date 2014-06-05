@@ -7,14 +7,14 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://makemiracle.us/wp-content/themes/revtheme/css/bootstrap.min.css">
-	<link href="http://makemiracle.us/wp-content/themes/revtheme/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="http://localhost:8888/dev_makemiracle/wordpress/wp-content/themes/revtheme1.0.0/css/bootstrap.min.css">
+	<link href="http://localhost:8888/dev_makemiracle/wordpress/wp-content/themes/revtheme1.0.0/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="http://makemiracle.us/wp-content/themes/revtheme/css/zbase.css">
+	<link rel="stylesheet" href="http://localhost:8888/dev_makemiracle/wordpress/wp-content/themes/revtheme1.0.0/css/zbase.css">
 
 	<!-- Latest compiled and minified JavaScript -->
-	<script src="http://makemiracle.us/wp-content/themes/revtheme/js/jquery.js"></script>
-	<script src="http://makemiracle.us/wp-content/themes/revtheme/js/bootstrap.min.js"></script>
+	<script src="http://localhost:8888/dev_makemiracle/wordpress/wp-content/themes/revtheme1.0.0/js/jquery.js"></script>
+	<script src="http://localhost:8888/dev_makemiracle/wordpress/wp-content/themes/revtheme1.0.0/js/bootstrap.min.js"></script>
 
 	
 	<!--GoogleAnalythics-->
@@ -56,10 +56,10 @@
 	} else if ( preg_match( $searchPattern, $str, $imgurl ) && !is_archive()) {//アイキャッチは無いが画像がある場合
 	     echo '<meta property="og:image" content="'.$imgurl[2].'">';echo "\n";
 	} else {//画像が1つも無い場合
-	     echo '<meta property="og:image" content="http://makemiracle.us/wp-content/themes/revtheme/css/facebook_icon.jpg">';echo "\n";
+	     echo '<meta property="og:image" content="http://localhost:8888/dev_makemiracle/wordpress/wp-content/themes/revtheme1.0.0/css/facebook_icon.jpg">';echo "\n";
 	}
 	} else {//投稿記事や固定ページ以外の場合（ホーム、カテゴリーなど）
-	     echo '<meta property="og:image" content="http://makemiracle.us/wp-content/themes/revtheme/css/facebook_icon.jpg">';echo "\n";
+	     echo '<meta property="og:image" content="http://localhost:8888/dev_makemiracle/wordpress/wp-content/themes/revtheme1.0.0/css/facebook_icon.jpg">';echo "\n";
 	}
 	?>
 	<!--OGP完了-->
